@@ -33,9 +33,18 @@ body{
 
 /* Top
 ------------------------------------------------------------*/
-.flexible-images {
-  max-width: 100%;
-  height: auto;
+.kuma {
+  background-image: url("../images/KUMA1892039.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+@media (max-width: 768px) {
+  .kuma {
+    height: 250px;
+    width: 100%;
+  }
 }
 
 
